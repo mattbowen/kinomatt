@@ -62,8 +62,8 @@ rpm:
     - libvirt
     - libcap-ng-devel
     - procps-ng-devel
-    - grub2-efi-x64-modules
-    - shim-x64
+    - vulkan-loader
+    - vulkan-loader.i686
     # Example:
     # - tilix
   # These RPMs will be removed from the system image. This step happens during
