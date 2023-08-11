@@ -11,3 +11,8 @@ setup-flatpaks:
   done
 
 # Include some of your custom scripts here!
+setup-cachyos:
+  #!/usr/bin/env bash
+  echo 'Installing cachyos kernel ...'
+  rpm-ostree override remove kernel-devel-matched kernel-devel kernel-headers kernel --install kernel-cachyos-bore
+  rpm-ostree install uksmd
