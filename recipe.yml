@@ -97,3 +97,13 @@ firstboot:
     - com.github.tchx84.Flatseal
     - io.github.celluloid_player.Celluloid
     - com.usebottles.bottles
+    - com.bitwig.BitwigStudio
+    - com.discordapp.Discord
+    - com.slack.Slack
+    - com.valvesoftware.Steam
+    - md.obsidian.Obsidian
+    - org.blender.Blender
+    - org.qgis.qgis
+    - org.raspberrypi.rpi-imager
+    - org.signal.Signal
+    - us.zoom.Zoom
