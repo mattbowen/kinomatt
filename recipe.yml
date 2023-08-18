@@ -58,8 +58,29 @@ rpm:
     # if you ever download or compile any custom software on your machine.
     - libadwaita
     # Add your own below:
-    - virt-manager
-    - libvirt
+    - fish
+    - qemu 
+    - qemu-user-static 
+    - qemu-user-binfmt 
+    - virt-manager 
+    - libvirt 
+    - genisoimage 
+    - qemu-img 
+    - qemu-system-x86-core 
+    - qemu-char-spice 
+    - qemu-device-usb-redirect 
+    - qemu-device-display-virtio-vga 
+    - qemu-device-display-virtio-gpu
+    - cockpit-system 
+    - cockpit-ostree 
+    - cockpit-networkmanager 
+    - cockpit-selinux 
+    - cockpit-storaged 
+    - cockpit-podman 
+    - cockpit-machines 
+    - cockpit-pcp
+    - swtpm-tools
+    - edk2-ovmf
     - libcap-ng-devel
     - procps-ng-devel
     - vulkan-loader
