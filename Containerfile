@@ -34,10 +34,10 @@ COPY cosign.pub /usr/share/ublue-os/cosign.pub
 COPY ${RECIPE} /usr/share/ublue-os/recipe.yml
 
 # Integrate bling justfiles onto image
- COPY --from=ghcr.io/blue-build/modules:latest /files/usr/share/ublue-os/just /usr/share/ublue-os/just
+# COPY --from=ghcr.io/blue-build/modules:latest /files/usr/share/ublue-os/just /usr/share/ublue-os/just
 
 # Add nix installer if you want to use it
-COPY --from=ghcr.io/blue-build/modules:latest /files/usr/bin/ublue-nix* /usr/bin
+# COPY --from=ghcr.io/blue-build/modules:latest /files/usr/bin/ublue-nix* /usr/bin
 
 # "yq" used in build.sh and the "setup-flatpaks" just-action to read recipe.yml.
 # Copied from the official container image since it's not available as an RPM.
